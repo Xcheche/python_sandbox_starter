@@ -35,11 +35,14 @@ class Customer(User):
 
 
 person1 = User('cheche', '@cheche', 31)
+person1.race = 'alien'
 print(f'{person1.name} {person1.email} {person1.age} and of {person1.race}')
 person1.has_birthday()
+
 print(person1.greeting())
 print('----------------------')
 person2 = User('ebuka', '@ebuka', 32)
+person2.race = 'black'
 print(f'{person2.name} {person2.email} {person2.age} and of {person2.race}')
 person2.has_birthday()
 print(person2.greeting())
