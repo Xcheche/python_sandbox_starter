@@ -1,4 +1,5 @@
-person = {'first_name': 'cheche', 'last_name': 'ome', 'age': '31'}
+person = {'first_name': 'cheche', 'last_name': 'ome',
+          'age': '31', 'friends': ['john', 'james', 'anderson']}
 
 print(person)
 
